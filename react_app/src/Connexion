@@ -1,0 +1,130 @@
+import React from 'react';
+
+function AdministrationDesExamens() {
+  return (
+    <div>
+      <style>{`
+        body {
+            position: relative;
+            width: 1750px;
+            height: 1117px;
+            background: #4CB9E7;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        #administration_des_examens {
+            position: absolute;
+            width: 1750px;
+            height: 105px;
+            left: 0px;
+            top: 50px;
+            font-family: 'Imprint MT Shadow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 96px;
+            line-height: 113px;
+            color: #373331;
+        }
+
+        #rectangle_2 {
+            position: absolute;
+            width: 910px;
+            height: 630px;
+            left: 418px;
+            top: 319px;
+            background: #0F2167;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        #identifiant_label {
+            position: absolute;
+            width: 240px;
+            height: 38px;
+            left: 600px;
+            top: 434px;
+            font-family: 'Imprint MT Shadow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 38px;
+            color: #FFECD6;
+        }
+
+        #rectangle_3 {
+            position: absolute;
+            width: 306px;
+            height: 70px;
+            left: 720px;
+            top: 840px;
+            background: #FFECD6;
+            border-radius: 40px;
+        }
+
+        #se_connecter {
+            position: absolute;
+            width: 280px;
+            height: 46px;
+            left: 735px;
+            top: 852px;
+            font-family: 'Imprint MT Shadow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 38px;
+            color: #000000;
+            background-color: #FFECD6;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #mot_de_passe_label {
+            position: absolute;
+            width: 259px;
+            height: 38px;
+            left: 571px;
+            top: 647px;
+            font-family: 'Imprint MT Shadow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 38px;
+            color: #FFECD6;
+        }
+
+        #rectangle_5 {
+            position: absolute;
+            width: 417px;
+            height: 65px;
+            left: 843px;
+            top: 634px;
+            background: #FFECD6;
+        }
+
+        #rectangle_26 {
+            position: absolute;
+            width: 417px;
+            height: 69px;
+            left: 843px;
+            top: 420px;
+            background: #FFECD6;
+        }
+      `}</style>
+      
+      <div id="administration_des_examens">ADMINISTRATION DES EXAMENS</div>
+      <div id="rectangle_2"></div>
+      <label id="identifiant_label" htmlFor="identifiant">IDENTIFIANT:</label>
+      <label id="mot_de_passe_label" htmlFor="mot_de_passe">MOT DE PASSE:</label>
+      <div id="rectangle_3"></div>
+      <div id="rectangle_5"></div>
+      <div id="rectangle_26"></div>
+      <button id="se_connecter">SE CONNECTER</button>
+    </div>
+  );
+}
+
+export default AdministrationDesExamens;
